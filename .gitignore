@@ -1,10 +1,17 @@
-# installed NodeJS modules, which are often very large.
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/bin/*
+/vendor/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
 node_modules/
-
-# byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# because macOS is macOS.
-.DS_Store
